@@ -116,6 +116,7 @@ class App extends Component {
         <h1>Hi, I'm a React App</h1>
         <p className={classes.join(' ')}>This is really working</p>
         <StyledButton
+          className={classes.Button}
           alt={this.state.showPerson}
           // style={style}
           // onClick={this.onButtonSubmit.bind(this, 'Hu')}>Switch name</button>
@@ -128,3 +129,6 @@ class App extends Component {
 }
 
 export default App;
+
+
+//StyledButton

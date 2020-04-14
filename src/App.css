@@ -7,8 +7,36 @@
 }
 
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
+
+
+Button{
+      background-color: ${props => props.alt ? 'red' : 'green'};
+      color: white;
+      front: inherit;
+      border: 3px solid blue;
+      padding: 8px;
+      cursor: pointer;
+}
+      &:hover {
+        background-color: ${props => props.alt ? 'salmon' : 'lightgreen'};
+        color: black;
+      }
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
